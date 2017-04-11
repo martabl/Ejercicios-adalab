@@ -1,0 +1,25 @@
+body {
+  border: 8px solid black;
+}
+.contenido {
+  width: 86%;
+  max-width: 600px;
+  margin:auto;
+  margin-top:106px;
+}
+#nombre {
+font-size: 18px;
+margin-bottom: 40px;
+}
+.titulo {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.parrafo {
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+#enlace {
+  padding: 8px 16px;
+  margin-left: -8px;
+}
