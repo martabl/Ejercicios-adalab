@@ -1,0 +1,48 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  box-sizing: border-box;
+  }
+body {
+  max-width: 840px;
+
+  }
+.container {
+  display: flex;
+  justify-content: flex-start;
+  }
+
+    .text {
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+
+      }
+        .button {
+          border: 3px solid grey;
+          align-self: flex-end;
+          border-radius: 5px;
+          padding: 5px;
+          color: black;
+          }
+        .a{
+          background-color: grey;
+          color: white;
+          }
+    .grade{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      }
+      .up {
+        flex-direction: row;
+      }
+        .puntuation {
+        border: 3px solid grey;
+        align-self: flex-end;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: grey;
+      }
