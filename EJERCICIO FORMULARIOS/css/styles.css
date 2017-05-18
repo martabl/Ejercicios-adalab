@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 3%;
+  background: linear-gradient(white, lightblue);
+  width: 50%;
+}
+
+.content{
+  margin: 3% ;
+}
+
+.namesur{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 3%;
+}
+
+.name{
+  margin-right: 2%;
+}
+
+.passw{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.date{
+  margin-bottom: 4%;
+}
+
+.buttonAnAccount{
+  background-color: green;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: white;
+  padding: 2%;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
