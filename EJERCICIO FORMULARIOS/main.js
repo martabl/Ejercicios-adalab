@@ -1,26 +1,22 @@
 var daysElement = document.getElementById('days');
-var yearsElement = document.querySelector('.years');
+var yearsElement = document.getElementById('years');
 
 function getDays (){
-  var daysHtml = '';
   var firstDay = 1;
   var lastDay = 32;
-   for (var i = firstDay; i <lastDay ; i++) {
-    daysHtml += '<option>' + parseInt(i) + '</option>';
+  for (var i = firstDay; i <lastDay ; i++) {
+    daysElement.innerHTML += '<option>' + parseInt(i) + '</option>';
   }
-  daysElement.innerHTML = daysHtml;
 }
 getDays();
 
 
 function getYear (){
-  var yearsHtml = '';
   var firstYear = 1900;
   var lastYear = 2018;
   for (var j = firstYear; j < lastYear; j++) {
-    yearsHtml += '<option>' + parseInt(j) + '</option>';
+    yearsElement.innerHTML += '<option>' + parseInt(j) + '</option>';
   }
-  yearsElement.innerHTML = yearsHtml;
 }getYear ();
 
 
@@ -35,7 +31,7 @@ function buttonCreate(){
     alert('No se ha podido crear la cuenta.');
     document.getElementById('remail').style.border = "2px solid red";
 
-}
+  }
 }
 
 var btnCreate = document.querySelector(".buttonAnAccount");
